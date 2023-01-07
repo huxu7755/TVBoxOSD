@@ -205,3 +205,6 @@
 -keep class com.github.tvbox.quickjs.** {*;}
 # 支持影视的ali相关的jar
 -keep class com.google.gson.**{*;}
+# Cronet
+-keep class com.google.net.cronet.**{*;}
+-keep class org.chromium.net.**{*;}
